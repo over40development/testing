@@ -1,0 +1,648 @@
+/* custom CSS file - Steven Bloom Customer Success Manager sbloom@medallia.com */
+
+.neb-content md-radio-group div.radio md-radio-button ._md-on {
+ background-color: #4a90e2 !important;
+}
+#liveForm .neb-content .md-checked ._md-icon {
+ background-color: #4a90e2 !important;
+}
+
+neb-rating .neb-rating.numbersCircle label {
+    background: url("https://assets.kampyle.com/ps/MedalliaDemo/4line/circle-Light-Grey.png") no-repeat; }
+neb-rating .neb-rating.numbers label {
+    background: url("https://assets.kampyle.com/ps/MedalliaDemo/4line/circle-Light-Grey.png") no-repeat; }
+neb-rating .neb-rating.numbersSquare label {
+    background: url("https://assets.kampyle.com/ps/MedalliaDemo/4line/square-Light-Grey.png") no-repeat; }
+neb-rating .neb-rating.stars label {
+    background: url("https://assets.kampyle.com/ps/MedalliaDemo/4line/stars-Light-Grey.png") no-repeat; }
+neb-rating .neb-rating.bars label {
+    background: url("https://assets.kampyle.com/ps/MedalliaDemo/4line/stripes-Light-Grey.png") no-repeat; }
+/* anchor text for Mobile SDK only*/
+.NPSanchorMobile .neb-content::before, .NPSanchorMobileB .neb-content::before{
+	padding-top: 10px;
+	font-size:14px;
+    margin-left: 20px; 
+	content: "Not at all likely\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely likely";
+	white-space:pre;
+	}
+.NPSanchorMobileA .neb-content::after{
+	padding-top: 10px;
+	font-size:14px;
+    margin-left: 20px; 
+	content: "Not at all likely\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely likely";
+	white-space:pre;
+	}
+.OSATanchorMobile .neb-content::before, .OSATanchorMobileB .neb-content::before {
+   padding-top: 10px;
+   	font-size:14px;
+    margin-left: 20px; 
+	content: "Not at all satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely satisfied";
+	white-space: pre;
+	}
+.OSATanchorMobileA .neb-content::after {
+   padding-top: 10px;
+   	font-size:14px;
+    margin-left: 20px; 
+	content: "Not at all satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely satisfied";
+	white-space: pre;}
+/* end of anchor text for Mobile SDK only*/
+
+ /****************************************/
+/* Media Query Breakpoints start here   */
+/****************************************/
+/* Phone breakpoint - iPhone 5 -27-sep*/
+@media only screen
+and (min-width : 320px)
+and (max-width : 374px) {
+.OSATanchor .neb-content::before {
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 20px;
+   content: "Not at all unsatisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely satisfied";
+white-space: pre;}
+.NPSanchor .neb-content::before {
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 150px;
+   content: "Not at all likely\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely likely";
+   white-space:pre;
+   }
+.OSATanchor10 .neb-content:before {
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 280px;
+   content: "Not at all satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely satisfied";
+   white-space:pre;
+}
+/* CSAT anchor text for 5-point rating scales only */
+.CSAT5anchor1 .neb-website-grading1to10:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right: 660px;
+   margin-left: 1px;
+   content: "Unsatisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0 Satisfied";
+}
+/* CSAT anchor text for 5-point rating scales only */
+.CSAT5anchor2 .neb-website-grading1to10:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right:120px;
+   margin-left: 1px;
+   content: "Not at all\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely  \00a0satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0 satisfied";
+}
+.CSAT5anchor1 .kplGrading:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right:120px;
+   margin-left: 1px;
+   content: "Unsatisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0 Satisfied";
+}
+.CSAT5anchor2 .kplGrading:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   margin-left: 1px;
+   content: "Not at all\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely \00a0\00a0\00a0\00a0\00a0\00a0\ satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ satisfied";
+}
+
+neb-rating .neb-rating span {
+    outline: none;
+    margin-right: -2px;
+    }
+neb-rating .neb-rating {
+    width: 310px;
+    }
+neb-rating .neb-rating.numbersCircle label,neb-rating .neb-rating.numbersSquare label {
+  transform:scale(0.8);
+}
+.neb-mobile-web .pageRepeater .neb-web-component {
+    padding: 0px 9px !important;
+}
+}
+/* Phone breakpoint - iPhone 5 - landscape */
+@media only screen
+and (min-width : 320px)
+and (max-width : 374px) 
+and (orientation: landscape){
+.OSATanchor .neb-content::before {
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 20px;
+   content: "Not at all satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely satisfied";
+   white-space: pre;
+   }
+.NPSanchor .neb-content::before {
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 400px;
+   content: "Not at all likely\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely likely";
+   white-space:pre;
+   }
+.OSATanchor10 .neb-content:before {
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 280px;
+content: "Not at all satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely satisfied";
+   white-space:pre;
+}
+/* CSAT anchor text for 5-point rating scales only */
+.CSAT5anchor1 .neb-website-grading1to10:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right: 660px;
+   margin-left: 1px;
+   content: "Unsatisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0 Satisfied";
+}
+/* CSAT anchor text for 5-point rating scales only */
+.CSAT5anchor2 .neb-website-grading1to10:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right:120px;
+   margin-left: 1px;
+   content: "Not at all\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely \00a0\ satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ satisfied";
+}
+.CSAT5anchor1 .kplGrading:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right:800px;
+   margin-left: 1px;
+   content: "Unsatisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0 Satisfied";
+}
+.CSAT5anchor2 .kplGrading:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right:120px;
+   margin-left: 1px;
+   content: "Not at all\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely \00a0\ satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ satisfied";
+}
+
+  .rating1To10-square-1, .rating1To10-square-2, .rating1To10-square-3, .rating1To10-square-4, .rating1To10-square-5, .rating1To10-square-6,
+.rating1To10-square-7, .rating1To10-square-8, .rating1To10-square-9, .rating1To10-square-10,
+.rating1To10-square-1-off, .rating1To10-square-2-off, .rating1To10-square-3-off, .rating1To10-square-4-off, .rating1To10-square-5-off,
+.rating1To10-square-6-off, .rating1To10-square-7-off, .rating1To10-square-8-off, .rating1To10-square-9-off, .rating1To10-square-10-off
+  {margin-right:0px;
+  }
+
+}
+
+/* Larger Phone breakpoint - iPhone 6 */
+@media only screen
+and (min-width : 375px)
+and (max-width : 413px) {
+.OSATanchor .neb-content::before {
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 20px;
+   content: "Not at all satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0 Extremely satisfied";
+white-space: pre;}
+.NPSanchor .neb-content::before {
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 310px;
+   content: "Not at all likely\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely likely";
+   white-space:pre;
+   }
+.OSATanchor10 .neb-content:before {
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 280px;
+content: "Not at all satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely satisfied";
+   white-space:pre;
+}
+/* CSAT anchor text for 5-point rating scales only */
+.CSAT5anchor1 .neb-website-grading1to10:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right: 660px;
+   margin-left: 1px;
+   content: "Unsatisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0 Satisfied";
+}
+/* CSAT anchor text for 5-point rating scales only */
+.CSAT5anchor2 .neb-website-grading1to10:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right:120px;
+   margin-left: 1px;
+   content: "Not at all\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely \A satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ satisfied";
+}
+.CSAT5anchor1 .kplGrading:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right:800px;
+   margin-left: 1px;
+   content: "Unsatisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0 Satisfied";
+}
+.CSAT5anchor2 .kplGrading:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right:120px;
+   margin-left: 1px;
+   content: "Not at all\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely \00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ satisfied";
+}
+}
+/* iPhone 6+ breakpoint */
+@media only screen
+and (min-width:414px) 
+and (max-width:768px)
+and (orientation: portrait){
+.OSATanchor .neb-content::before {
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 200px;
+   content: "Not at all satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely satisfied";
+   white-space: pre;}
+.NPSanchor .npsMobile::before {
+/* for 2line sprites*/
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 400px;
+   content: "Not at all likely\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely likely";
+   white-space:pre;
+   }
+.NPSanchor .neb-rating::before {
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 400px;
+   content: "Not at all likely\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely likely";
+   white-space:pre;
+   }
+.OSATanchor10 .kplGrading:before {
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 380px;
+content: "Not at all satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely satisfied";
+   white-space:pre;
+}
+.OSATanchor10 .neb-website-grading1to10:before {
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 280px;
+content: "Not at all satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely satisfied";
+   white-space:pre;
+}
+.CSAT5anchor2 .neb-website-grading1to10:before{
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right: 120px; 
+   width:830px;
+   margin-left: 1px;
+   content: "Not at all\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ satisfied";
+}
+.CSAT5anchor1 .kplGrading:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right:800px;
+   margin-left: 1px;
+   content: "Unsatisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0 Satisfied";
+}
+.CSAT5anchor2 .kplGrading:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right:120px;
+   margin-left: 1px;
+   content: "Not at all\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely \00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ satisfied";
+}
+}
+
+/* iPhone 6+ breakpoint - landscape*/
+@media only screen
+and (min-width:414px) 
+and (max-width:768px)
+and (orientation: landscape){
+.OSATanchor .neb-content::before {
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 20px;
+   content: "Not at all satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely satisfied";
+   white-space: pre;
+   }
+.NPSanchor .neb-content::before {
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 400px;
+   content: "Not at all likely\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely likely";
+   white-space:pre;
+   }
+.OSATanchor10 .neb-content:before {
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 280px;
+content: "Not at all satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely satisfied";
+   white-space:pre;
+}
+/* CSAT anchor text for 5-point rating scales only */
+.CSAT5anchor1 .neb-website-grading1to10:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right: 660px;
+   margin-left: 1px;
+   content: "Unsatisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0 Satisfied";
+}
+/* CSAT anchor text for 5-point rating scales only */
+/* The next two selectors allows stacking of the anchor text */
+.CSAT5anchor2 .neb-website-grading1to10:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right:120px;
+   margin-left: 1px;
+   content: "Not at all\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely \A satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ satisfied";
+}
+.CSAT5anchor1 .kplGrading:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right:800px;
+   margin-left: 1px;
+   content: "Unsatisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0 Satisfied";
+}
+.CSAT5anchor2 .kplGrading:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right:120px;
+   margin-left: 1px;
+   content: "Not at all\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely \00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ satisfied";
+}
+}
+/* iPad breakpoint */
+@media only screen
+and (min-width:769px) 
+and (max-width:992px){
+.OSATanchor .neb-content::before {
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 20px;
+   content: "Not at all satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely satisfied";
+white-space: pre;}
+.NPSanchor .neb-content::before {
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 690px;
+   content: "Not at all likely\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely likely";
+   white-space:pre;
+   } 
+.OSATanchor10 .neb-content:before {
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 280px;
+content: "Not at all satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely satisfied";
+   white-space:pre;
+} 
+/* CSAT anchor text for 5-point rating scales only */
+.CSAT5anchor1 .neb-website-grading1to10:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right: 660px;
+   margin-left: 1px;
+   content: "Unsatisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0 Satisfied";
+}
+/* CSAT anchor text for 5-point rating scales only */
+/* The next two selectors allows stacking of the anchor text */
+.CSAT5anchor2 .neb-website-grading1to10:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right:120px;
+   margin-left: 1px;
+   content: "Not at all\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely \A satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ satisfied";
+}
+.CSAT5anchor1 .kplGrading:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right:800px;
+   margin-left: 1px;
+   content: "Unsatisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0 Satisfied";
+}
+.CSAT5anchor2 .kplGrading:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right:120px;
+   margin-left: 1px;
+   content: "Not at all\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely \00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ satisfied";
+}
+}
+/* Anything bigger than iPad or desktop breakpoint */
+@media only screen
+and (min-width:993px) 
+{
+.NPSanchor .neb-content:before {
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 680px;
+   content: "Not at all likely\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely likely";
+   white-space: pre;
+} 
+.OSATanchor .neb-content:before {
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 380px;
+content: "Not at all satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely satisfied";
+   white-space:pre;
+}
+.OSATanchor10 .neb-content:before {
+   font-size: 12px;
+   float: left;
+   text-align: center;
+   padding-right: 680px;
+content: "Not at all satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely satisfied";
+   white-space:pre;
+}
+/* CSAT anchor text for 5-point rating scales only */
+.CSAT5anchor1 .neb-website-grading1to10:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right: 760px;
+   margin-left: 1px;
+   content: "Unsatisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0 Satisfied";
+}
+/* CSAT anchor text for 5-point rating scales only */
+/* The next two selectors allows stacking of the anchor text */
+.CSAT5anchor2 .neb-website-grading1to10:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right:120px;
+   margin-left: 1px;
+   content: "Not at all\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely \A satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ satisfied";
+}
+
+.CSAT5anchor1 .kplGrading:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right:800px;
+   margin-left: 1px;
+   content: "Unsatisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0 Satisfied";
+}
+.CSAT5anchor2 .kplGrading:before {
+   font-size: 12px !important;
+   float: left !important;
+   text-align: left !important;
+   padding-right:120px;
+   margin-left: 1px;
+   content: "Not at all\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ Extremely \00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ satisfied\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\ satisfied";
+}
+
+/* remove the horizontal scroll bar that shows up because of the padding */
+#liveForm > div > div.live-form-content > div.modal-live-form.ng-scope
+ {overflow-x:hidden;}
+}
+
+.nps-square-number-0, .nps-square-number-1, .nps-square-number-2, .nps-square-number-3, .nps-square-number-4, .nps-square-number-5,
+.nps-square-number-6, .nps-square-number-7, .nps-square-number-8, .nps-square-number-9, .nps-square-number-10,
+.nps-square-number-0-off, .nps-square-number-1-off, .nps-square-number-2-off, .nps-square-number-3-off, .nps-square-number-4-off,
+.nps-square-number-5-off, .nps-square-number-6-off, .nps-square-number-7-off, .nps-square-number-8-off, .nps-square-number-9-off,
+.nps-square-number-10-off {
+ background: url("https://assets.kampyle.com/clients/nebula/bpp/nps_blue_white.png") no-repeat; }
+.nps-square-number-0-off {
+ background-position: 0 0; }
+.nps-square-number-1-off {
+ background-position: -30px 0; }
+.nps-square-number-2-off {
+ background-position: -60px 0; }
+.nps-square-number-3-off {
+ background-position: -90px 0; }
+.nps-square-number-4-off {
+ background-position: -120px 0; }
+.nps-square-number-5-off {
+ background-position: -150px 0; }
+.nps-square-number-6-off {
+ background-position: -180px 0; }
+.nps-square-number-7-off {
+ background-position: -210px 0; }
+.nps-square-number-8-off {
+ background-position: -240px 0; }
+.nps-square-number-9-off {
+ background-position: -270px 0; }
+.nps-square-number-10-off {
+ background-position: -300px 0; }
+.nps-square-number-0 {
+ background-position: 0 -31px; }
+.nps-square-number-1 {
+ background-position: -30px -31px; }
+.nps-square-number-2 {
+ background-position: -60px -31px; }
+.nps-square-number-3 {
+ background-position: -90px -31px; }
+.nps-square-number-4 {
+ background-position: -120px -31px; }
+.nps-square-number-5 {
+ background-position: -150px -31px; }
+.nps-square-number-6 {
+ background-position: -180px -31px; }
+.nps-square-number-7 {
+ background-position: -210px -31px; }
+.nps-square-number-8 {
+ background-position: -240px -31px; }
+.nps-square-number-9 {
+ background-position: -270px -31px; }
+.nps-square-number-10 {
+ background-position: -300px -31px; }
+ 
+.npsMobile .nps-square-number-0, .npsMobile .nps-square-number-1, .npsMobile .nps-square-number-2, .npsMobile .nps-square-number-3, .npsMobile .nps-square-number-4, .npsMobile .nps-square-number-5,
+.npsMobile .nps-square-number-6, .npsMobile .nps-square-number-7, .npsMobile .nps-square-number-8, .npsMobile .nps-square-number-9, .npsMobile .nps-square-number-10,
+.npsMobile .nps-square-number-0-off, .npsMobile .nps-square-number-1-off, .npsMobile .nps-square-number-2-off, .npsMobile .nps-square-number-3-off, .npsMobile .nps-square-number-4-off,
+.npsMobile .nps-square-number-5-off, .npsMobile .nps-square-number-6-off, .npsMobile .nps-square-number-7-off, .npsMobile .nps-square-number-8-off, .npsMobile .nps-square-number-9-off,
+.npsMobile .nps-square-number-10-off {
+ background: url("https://assets.kampyle.com/clients/nebula/bpp/square-Light-Blue-2b-mobile.png") no-repeat; 
+ margin-right: 1.5px;
+ }
+.npsMobile .nps-square-number-0-off {
+ background-position: 0 0; }
+.npsMobile .nps-square-number-1-off {
+ background-position: -26px 0; }
+.npsMobile .nps-square-number-2-off {
+ background-position: -52px 0; }
+.npsMobile .nps-square-number-3-off {
+ background-position: -78px 0; }
+.npsMobile .nps-square-number-4-off {
+ background-position: -104px 0; }
+.npsMobile .nps-square-number-5-off {
+ background-position: -130px 0; }
+.npsMobile .nps-square-number-6-off {
+ background-position: -156px 0; }
+.npsMobile .nps-square-number-7-off {
+ background-position: -182px 0; }
+.npsMobile .nps-square-number-8-off {
+ background-position: -208px 0; }
+.npsMobile .nps-square-number-9-off {
+ background-position: -234px 0; }
+.npsMobile .nps-square-number-10-off {
+ background-position: -260px 0; }
+.npsMobile .nps-square-number-0 {
+ background-position: 0 -26px; }
+.npsMobile .nps-square-number-1 {
+ background-position: -26px -26px; }
+.npsMobile .nps-square-number-2 {
+ background-position: -52px -26px; }
+.npsMobile .nps-square-number-3 {
+ background-position: -78px -26px; }
+.npsMobile .nps-square-number-4 {
+ background-position: -104px -26px; }
+.npsMobile .nps-square-number-5 {
+ background-position: -130px -26px; }
+.npsMobile .nps-square-number-6 {
+ background-position: -156px -26px; }
+.npsMobile .nps-square-number-7 {
+ background-position: -182px -26px; }
+.npsMobile .nps-square-number-8 {
+ background-position: -208px -26px; }
+.npsMobile .nps-square-number-9 {
+ background-position: -234px -26px; }
+.npsMobile .nps-square-number-10 {
+ background-position: -260px -26px; }
+ 
+
+ 
+ label.control-label[for="NPS_numbersSquare"] {
+    /* background: black; */
+    width: 70% !important;
+}
+
+.kentbrokeit {
+  width: 20px;
+  height: 20px;
+  background-color: green;
+}
